@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   res.send('The sedulous hyena ate the antelope!');
 });
 
-app.listen(port, err => {
+app.listen(port, (err: any) => {
   if (err) {
     return console.error(err);
   }
